@@ -62,7 +62,9 @@ nav > ul{
     border-bottom: 2px solid var(--cor4);
     font-size: 19px;
 }
-
+br{
+    background:var(--cor5);
+}
 .container{
     padding-top: 120px;
 }
