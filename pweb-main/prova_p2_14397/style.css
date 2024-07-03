@@ -1,0 +1,55 @@
+*{
+    margin: 0;/*Margim zero*/
+    padding: 0;/*`Preenchimento zero*/
+    border-radius: 0;/*Tamanho da caixa como borda da caixa*/
+}
+header{
+    background-color: #ff6f61;/*Cor de fundo #FF6F61*/
+    color: #fff;/*Cor do texto #fff*/
+    padding: 20px;/*Espaçamento interno de 20px*/
+    display: flex;/*Exibição dos itens como flex*/
+    justify-content: space-between;/*Conteudo justificado como espaço entre os itens*/
+    align-items: center;/*Alinhamento vertical dos itens no centro*/
+}
+header h1{
+    margin: 0;/*Margem zero para o título*/
+    font-size: 36px;/*Tamanho da fonte do titulo 36px*/
+}
+nav ul{
+    list-style: none;/*Remova estilos de lista*/
+    display: inline-flex;/*Exibição dos itens como flex*/
+}
+nav ul li{
+    margin-left: 20px;/*Margem á direita para os itens do menu de 20px*/
+}
+nav ul li a{
+    color: #fff;/*Cor do texto do link*/
+    text-decoration: none;/*Remoção do sublinhado nos links*/
+    font-size: 18px;/*Tamanho da fonte dos links em 18px*/
+}
+main{
+    padding: 20px;/*Espaçamento interno de 20px*/
+    min-height: calc(100vh - 160px);/*Altura mínima para ocupar o restante da página*/
+}
+section{
+    margin-bottom: 20px;/*Margem inferior para as seções em 20px*/
+}
+section h2{
+    color: #ff6f61;/*Cor do título da seção em 28px*/
+    font-size: 28px;/*Tamanho da fonte do título da seção em 28px*/
+    margin-bottom: 10px;/*Margem inferior para o título da seção em 10px*/
+}
+section p{
+    color: #333;/*Cor do texto #333*/
+    font-size: 18px;/*Tamanho da fonte do texto em 18px*/
+    line-height: 1.6;/*Altura da linha em 1.6*/
+}
+footer{
+    background-color: #333;/*Cor de fundo #333*/
+    color:#fff ;/*Cor do texto #fff*/
+    padding-bottom: 10px;/*Espaçamento interno em 10px*/
+    text-align: center;/*Alinhamento do texto ao centro */
+    position: absolute;/*Posição fixa*/
+    padding-bottom: 0;/*Na parte inferior em 0*/
+    width: max-content;/*Largura total*/
+}

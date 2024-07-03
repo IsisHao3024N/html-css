@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landpage de Jogos</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:  #f0f0f0;
+        }
+        header{
+            background-color:  #ff5733;
+           color:  #fff;
+           text-align: center;
+           padding: 20px 0px;
+        }
+        header h1{
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header p{
+            font-size: 24px;
+            margin: 10px 0px 0px;
+        }
+        nav{
+            background-color:  #ff7f50;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        nav a :hover{
+            color:  #ff5733;
+        }
+        .banner{
+            height: 400px;
+            background-image: url(banner.jpg);
+            background-size: cover;
+            background-size: center;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color:#fff;
+            text-align : center; 
+        }
+        .cards-section{
+             background-color: #fff;
+             padding: 40px 0px;
+             text-align: center;
+        }
+        .cards-section h2{
+            font-size: 36px;
+            color: #ff5733;
+            margin: 0;
+        }
+        .cards-section p{
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0px;
+        }
+        .game-cards{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: center;
+            flex-wrap: wrap;
+        
+        }
+        .game-card {
+            position: relative;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            width: 400px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            background-size: cover;
+            background-position: center;    
+        }
+        
+        .game-card img:hover{
+            scale: 1.05;
+            opacity: 1;
+
+        }
+        .game-card:nth-child(1) { 
+            background-image: url('game1.jpg'); 
+             }
+             .game-card:nth-child(2) { 
+            background-image: url('game2.jpg'); 
+             }
+             .game-card:nth-child(3) { 
+            background-image: url('game3.jpg'); 
+             }
+        .game-info{
+            padding: 20px;
+            background-color:rgba(0, 0, 0, 0.2);
+            height: 175px;
+        }
+        .game-info h3{
+            font-size: 24px;
+            color: #ff5733;
+            margin: 0px;
+        }
+        .game-info p{
+            font-size: 16px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        .button{
+            display: inline-block;
+            background-color: #ff5733;
+            color: #fff;
+            margin: 20px 0px 0px 0px;
+            border-radius: 80px;
+            font-size: 16px;
+        }
+        .button:hover{
+            background-color: #ff7f50;
+        }
+        .favorites-section{
+            background: #f0f0f0;
+            padding: 40px 0px;
+            text-align: center;
+
+        }
+        .favorites-section h2{
+            font-size: 36px;
+            color: #ff5733;
+            margin: 0;
+        }
+        .favorites-section p{
+            font-size: 18px;
+            color: #555;
+            margin: 20px 0px;
+        }
+        .favorite-game{
+            margin: 20px;
+            display: inline-block; 
+            width: 400px; 
+        }
+        .favorite-game  img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .tips-section{
+            background-color: #fff;
+            padding: 40px 0px;
+            text-align: center;
+        }
+        .tips-section h2{
+            font-size: 36px;
+            color: #ff5733;
+            margin: 0px;
+        }
+        .tips-section p{
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0px;
+        }
+        .footer{
+            background-color: #ff5733;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore o Mundo dos Jogos</h1>
+        <p>Descubra uma vasta coleção de jogos incríveis e emocionantes.</p>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Jogos Populares</a>
+        <a href="#">Notícia</a>
+        <a href="#">Sobre</a>
+        <a href="#">Comtato</a>
+    </nav>
+    <section class="banner">
+        <h1>Descubra os Melhores Jogos</h1>
+        <p>Explore uma vasta coleção de jogos incríveis e emocionantes</p>
+    </section>
+    <section class="cards-section">
+        <h2>"Conheça Nossos Jogos</h2>
+        <p>Explore a seleção de jogos emocionantes</p>
+        <div class="game-cards">
+            <div class="game-card">
+                <div class="game-info">
+                    <h3>Jogo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam provident atque quas. Rerum sunt tempore, voluptas veniam omnis soluta repellendus perferendis? Aperiam accusamus dicta aliquid. Excepturi blanditiis eos illo ea!</p>
+                    <a href="#" class="button">Ver Mais</a>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-info">
+                    <h3>Jogo2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, accusamus. Molestiae nam fugit ad labore beatae natus maxime, assumenda aliquid, distinctio voluptatibus pariatur? Esse voluptate, mollitia sint necessitatibus veritatis nam.</p>
+                    <a href="#" class="button">Ver Mais</a>
+                </div>
+            </div>    
+            <div class="game-card">    
+                <div class="game-info" >
+                    <h3>Jogo3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit itaque, ratione dolorum optio, iure debitis eligendi iste culpa reiciendis enim esse laudantium in nesciunt odio ab sed dolor. Nisi?</p>
+                    <a href="#" class="button">Ver Maais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="favorites-section">
+        <h2>Jogos Favoritos</h2>
+        <p>Adicione seus jogos favoritos aqui e nunca perca um deles!</p>
+        <div class="favorite-game">
+            <img src="favorite1.jpg" alt="">
+            <p>Jogo Favorito 1</p>
+        </div>
+        <div class="favorite-game">
+            <img src="favorite2.jpg" alt="">
+            <p>Jogo Favorito 2</p>
+        </div>
+        <div class="favorite-game">
+            <img src="favorite3.jpg" alt="">
+            <p>Jogo Favorito 3</p>
+        </div>
+    </section>
+    <section class="tips-section">
+        <h2>Dicas de Jogos</h2>
+        <p>Confira nossas dicas para melhorar sua experiência de jogo</p>
+        <div>
+            <h3>Dica 1</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, sed, labore rerum quidem voluptate architecto tempora voluptatem rem eius nobis cum temporibus harum nulla? Beatae natus deserunt voluptates dolores similique?</p>
+        </div>
+        <div>
+            <h3>Dica 2</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, sed, labore rerum quidem voluptate architecto tempora voluptatem rem eius nobis cum temporibus harum nulla? Beatae natus deserunt voluptates dolores similique?</p>
+        </div>
+        <div>
+            <h3>Dica 3</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, sed, labore rerum quidem voluptate architecto tempora voluptatem rem eius nobis cum temporibus harum nulla? Beatae natus deserunt voluptates dolores similique?</p>
+        </div>
+    </section>
+    <footer>&copy; 2023 Landpage de Jogos</footer>
+</body>
+</html>
