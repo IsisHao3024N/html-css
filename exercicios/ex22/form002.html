@@ -8,10 +8,28 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off"><!--
+            O autocomplete e para aquele campo de preenchimneto altomatico.
+        
+        -->
         <p>
             <label for="iusu">Usuário</label>
-            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="10" placeholder="nome do usuário">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="10" placeholder="nome do usuário"><!-- 
+                O name é importante para o html e o php, já o id é importante para o label e o javascrip (o id tem que ser igual ao label para fazer uma ligação.)
+
+            *
+            *
+                O label faz uma ligação com o input 
+
+            *
+            *
+                O requiored diz ao programa que o campo é obrigatório.
+                maxLength é o maximo de caracteres e minLength é o minimo de caracteres.
+            *
+            *
+                O placeholder é uma dica do que o usuário deve colocar no campo.
+            
+            -->
         </p>
         <p>
             <label for="isen">Senha</label>
