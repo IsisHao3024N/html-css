@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="#" method="get">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="ismas" value="M"><!--
+            *** PARA SELECIONA UM ÚNICO VALOR A TAG NAME TEM QUE TER O MLESMO VALOR E SÓ FUNCIONA PARA O RADIO***
+            -->
+            <label for="ismas">Masculino</label>
+            <input type="radio" name="sexo" id="isfem" value="F" checked><!-- Checked traz um valor pré definodo para o formulário-->
+            <label for="isfem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas">Basquete<br>
+            <input type="checkbox" name="esfut" id="iesfut">Futebol<br>
+            <input type="checkbox" name="esnat" id="iesnat">Natação<br>
+            <input type="checkbox" name="esten" id="iesten">Tênis<br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
