@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <main>
+        <div class="corpo">
+            <h1>Cadastro De Usuario</h1>
+            <form action="#" method="post" autocomplete="on">
+                <div class="part">
+                    <label for="inome">Nome Completo</label><br>
+                    <input type="text" name="nome" id="inome" required maxlength="40" minlength="25" placeholder="Digite seu nome">
+                </div>
+                <div class="part">
+                    <label for="iemail">E-mail</label><br>
+                    <input type="email" name="email" id="iemal" required maxlength="40" minlength="15" placeholder="Digite seu nome">
+                </div>
+                <div class="part">
+                    <label for="icit">Cidade</label><br>
+                    <input type="text" name="cit" id="icit" required minlength="4" placeholder="Digite sua cidade">
+                </div>
+                <div class="part">
+                    <label for="idata">Data de nascimento</label>
+                    <input type="date" name="data" id="idata">
+                </div>
+                <p>Sexo</p>
+                <input type="radio" name="sexo" id="imas">
+                <label for="imas">Masculino</label><br>
+                <input type="radio" name="sexo" id="ifem">
+                <label for="ifem">Feminino</label><br>
+                <input type="radio" name="sexo" id="iout">
+                <label for="iout">Outro</label>
+
+                
+                <div id="but">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div> 
+    </main>
+</body>
+</html>
